@@ -19,7 +19,7 @@ public class BinarySearch{
 			if(A[m] < T) L = m + 1;
 			//if the middle element is bigger, then chop off everthing to the right
 			if(A[m] > T) R = m - 1;
-			//Hery u found the target, Good job
+			//Hey u found the target, Good job
 			if(A[m] == T) return m; 
 		}
 		//Welp you failed to find the target. GG
