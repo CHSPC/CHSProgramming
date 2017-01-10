@@ -16,6 +16,7 @@ public class Main{
         String wordSearch = scan.nextLine().toLowerCase();
         System.out.println(search(words, wordSearch) == true ? "Your word is in the dictionary" : "Your word does not exist");
     }
+    
     public static void mergeSort(String[] names) {
         if (names.length >= 2) {
             String[] left = new String[names.length / 2];
